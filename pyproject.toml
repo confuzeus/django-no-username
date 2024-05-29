@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "no-username"
+version = "0.1.0"
+description = ""
+authors = ["Josh Karamuth <hello@joshkaramuth.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.6"
+
+
+[tool.poetry.group.development.dependencies]
+black = "^24.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
